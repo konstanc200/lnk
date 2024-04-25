@@ -6,21 +6,19 @@
 
 using namespace std;
 
-int validator(char *files[]){
+int validator(int argc, char *files[]){
 	
 	cout << "File: "<< files[1];
 
-/*	#define IS_INDEXABLE(arg) (sizeof(arg[0]))
+	
 
-	#define IS_ARRAY(arg) (IS_INDEXABLE(arg) && (((void *) &arg) == ((void *) arg)))
-*/
 	return 0;
 }
 
 
 int main(int argc, char** argv) {
 	
-	validator(argv);
+	validator(argc, argv);
 
 
 	return 0;
